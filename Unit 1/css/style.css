@@ -13,6 +13,7 @@ p{
     line-height: 2;
     color: whitesmoke;
     text-align: center;
+    font-size: 15px;
 }
 header{
     background-image: url(../img/bg.jpeg);
@@ -86,15 +87,64 @@ header a{
     font-size: 100%;
     margin-top: 30px;
 }
-.container{
-    font-size: 20px;
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-    
+
+#btn:hover{
+    background-color: rgb(217, 219, 100);
 }
+
+/*contact*/
+
+.contact{
+    background-color: rgb(100, 20, 0);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-a{
+    border: solid 20px rgb(2, 27, 1);
+    padding-bottom: 10px;
+}
+
+.contact p{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.contact h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.contact h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(100, 20, 0); 
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.container h3{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.container p{
+    font-size: 18px;
+}
+
 main{
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 20px;
     background-color: rgb(100, 20, 0);
 }
@@ -103,10 +153,10 @@ img{
     max-width: 100%;
 }
 main img{
-    width:300px;
-    border: 10px solid #dedede;
+    width:160px;
+    border: 10px solid rgb(2, 27, 1);
     border-radius: 50%;
-    opacity: .8;
+    opacity: .9;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -115,12 +165,14 @@ footer{
     background-color: rgb(100, 20, 0);
     color: whitesmoke;
     height: 50px;
-    padding: 20px;
 }
 
 footer p{
+    font-size: 15px;
     text-align: center;
 }
+
+
 
 /*menu-mobile */
 nav{
@@ -158,24 +210,13 @@ nav a:hover{
 
 ul{
     padding: 10px;
+    text-align: center;
 }
 
 ul li{
-    font-size: 20 px;
+    font-size: 18px;
     list-style-type: none;
     color: whitesmoke;
-    margin-bottom: 10px;
-    margin-left: 0px;
-}
-
-ol{
-    color: whitesmoke;
-    padding:10px;
-}
-
-ol li{
-    background-color: rgb (224, 125, 3);
-    color:whitesmoke;
     margin-bottom: 10px;
     margin-left: 0px;
 }
@@ -193,17 +234,81 @@ mark{
     background-color: rgb(2, 27, 1);
     color: whitesmoke;
 }
+/*about*/
+
+.about-h{
+    background-color: rgb(100, 20, 0);
+    border: solid 20px rgb(2, 27, 1);
+    padding: 20px;  
+}
+
+.about-h h3{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.about h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about p{
+    font-size: 18px;
+}
+
+.about-h p{
+    font-size: 18px;
+}
+
+
+/*demo*/
+
+.demo{
+    background-color: rgb(100, 20, 0);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.demo li:hover{
+    background-color: rgb(2, 27, 1);
+}
+
+
+.demo h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.demo h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.demo-a{
+    background-color: rgb(100, 20, 0);
+    border: solid 20px rgb(2, 27, 1);
+    padding: 20px; 
+}
 
 /*service*/
 
 .service{ 
-    background-color: #dedede;
+    background-color: rgb(100, 20, 0);
+    border: solid 20px rgb(2, 27, 1);
     padding: 20px;
-    border-radius: 10px;
     text-align: center;
+    font-size: 15px;
 }
 .service h4{
-    font-size: 25px;
+    font-size: 30px;
+    
 }
 
 .service p{
@@ -213,19 +318,23 @@ mark{
 .icon{
     width: 100px;
     height: 100px;
-    background-color: #fcff49;
-    border-radius: 30%;
+    background-color: rgb(217, 219, 100);
+    border: 5px solid rgb(2, 27, 1);
+    border-radius: 50%;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 20px;
+}
+
+.icon i{
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    
 }
 .icon{
     display: flex;
-    justify-content: center; /*horizontal*/
-    align-items: center; /*vertical*/
-
-.contact{
-    background-color: #dedede;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
 }
+
