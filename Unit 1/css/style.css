@@ -338,3 +338,16 @@ mark{
     align-items: center; /* vertical */
 }
 
+.ukulele{
+    width: auto;
+    height: 300px;
+}
+.dance{
+    width: 300px;
+    height: 200px;
+}
+
+.tennis{
+    width: auto;
+    height: 300px;
+}
